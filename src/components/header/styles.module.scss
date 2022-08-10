@@ -1,0 +1,44 @@
+@import "styles/color.scss";
+.container {
+  margin: auto;
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  background-color: #2571b7;
+  z-index: 2;
+  .navBar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 102.4rem;
+    width: inherit;
+    align-items: center;
+    .logo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: antiquewhite;
+      line-height: 1;
+      word-spacing: 0.167rem;
+      h1 {
+        font-weight: 400;
+        margin-block-start: 0;
+        margin-block-end: 0;
+      }
+      p {
+        font-size: 0.58rem;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        letter-spacing: 4px;
+      }
+    }
+    .nav {
+      display: flex;
+      gap: 8rem;
+      .navBtn {
+        background-color: $color-secundary;
+        max-width: max-content;
+      }
+    }
+  }
+}

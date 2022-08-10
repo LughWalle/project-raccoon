@@ -1,0 +1,22 @@
+@import 'styles/color';
+
+.button {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin: auto 0;
+  overflow: hidden;
+  color: $color-text-white;
+
+  .ripples {
+    padding: 0.7rem 2rem;
+    overflow: unset !important;
+    margin: 0;
+    .text {
+      color: $color-text-white;
+      font-size: 1.6rem;
+      background-color: transparent;
+      border: none;
+    }
+  }
+}

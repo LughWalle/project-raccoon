@@ -1,0 +1,37 @@
+@import "styles/color.scss";
+
+.list {
+  list-style: none;
+  padding: 1em 0;
+  display: flex;
+  gap: 5rem;
+  color: $color-text-white;
+
+  .navAnchor {
+    text-align: center;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: 0.4s;
+  }
+  .underLine {
+    transition: 0.3s;
+    display: inline-block;
+    position: relative;
+  }
+  .underLine:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: $color-primary;
+    transform-origin: bottom right;
+    transition: transform 0.75s ease-in-out;
+  }
+  .underLine:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+}
