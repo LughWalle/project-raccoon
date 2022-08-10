@@ -2,45 +2,50 @@
 @import "styles/color.scss";
 
 .main {
-    color: white;
-    height: 100%;
-    display: flex;
-    box-sizing: border-box;
-    justify-content: center;
+  color: white;
+  height: 100%;
+  display: flex;
+  box-sizing: border-box;
+  width: 100vw;
+  @include background-main;
+  background-size: cover;
+  background-position: 0 25%;
+  //filter: blur(5px) brightness(0.5);
   .bg {
-    width: 100vw;
-    @include background-main;
-    background-size: cover;
-    background-position: 0 25%;
-    filter: blur(5px) brightness(0.5);
-  }
-  .text {
-    position: absolute;
-    width: 102.4rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    width: -webkit-fill-available;
     display: flex;
-    margin: 0;
-    flex-direction: column;
-    align-self: center;
-    justify-self: center;
-    gap: 2rem;
 
-    .title {
+    .text {
+      position: absolute;
+      width: 100vh;
+      max-width: 102.4rem;
+      display: flex;
+      margin: 0;
+      flex-direction: column;
+      align-self: center;
+      padding: 0 6rem;
+      gap: 2rem;
+
+      .title {
         font-size: 7rem;
         font-weight: 400;
         margin-block-start: 0;
         margin-block-end: 0;
-    }
-    .subtitle {
+      }
+      .subtitle {
         font-size: 3.2rem;
         margin-block-start: 0;
         margin-block-end: 0;
-    }
-    .mainBtn {
+      }
+      .mainBtn {
         background-color: $color-primary;
         max-width: max-content;
         font-size: 3.2rem;
         margin-top: 5rem;
         padding: 0.7rem 2rem;
+      }
     }
   }
 }
