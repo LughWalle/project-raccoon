@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Este é um projeto em [Next.js](https://nextjs.org/), criado para teste tecnico da [Raccoon](https://raccoon.ag/).
 
-## Getting Started
+## Começando...
 
-First, run the development server:
+Faça o clone do projeto:
+```bash
+git clone git@github.com:LughWalle/project-raccoon.git
+cd project-raccoon
+```
+em seguida instale as dependencias:
+```bash
+npm install
+# ou
+yarn
+```
+
+depois rode o comando abaixo para rodar o projeto
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
 ```
+Se o navegador não abrir automaticamente apois rodar o comando acima, use essa URL abaixo
+[http://localhost:3000](http://localhost:3000)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A página contem um cabeçalho com menu de 3 links, apontando para o login quando não estiver logado, para a
+página de produtos, quando estiver, e outro para um link externo (meu github)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+![image](https://user-images.githubusercontent.com/48294395/183880795-12e6b678-386e-402f-b7f1-2a76f1cd427f.png)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Login
 
-## Learn More
+Para fazer login, ultilize as seguintes credenciais:
 
-To learn more about Next.js, take a look at the following resources:
+```
+username: kminchelle
+password: 0lelplR 
+```
+![image](https://user-images.githubusercontent.com/48294395/183881265-86d1228c-e6a8-490d-b7d7-95da6068a84c.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Apois completar login, será direcionado para a pagina de produtos
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![image](https://user-images.githubusercontent.com/48294395/183881016-b1b25fa3-9835-48ad-8410-120980f45b1f.png)
