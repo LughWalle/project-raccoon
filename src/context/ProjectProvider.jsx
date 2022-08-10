@@ -22,14 +22,15 @@ function ProjectProvider({ children }) {
     }
 
     useEffect(() => {
-        if(isAuthenticated) {
+        if(isAuthenticated()) {
             setIsLoged(true)
+        } else {
+            setIsLoged(false)
         }
         if(isLoged) {
             allProducts()
-            console.log('entrei no effect', prods);
         }
-    })
+    }, [isLoged])
 
     const data = {
         userName,

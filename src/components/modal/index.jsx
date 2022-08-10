@@ -62,6 +62,7 @@ function ModalLogin() {
     isOpen={isOpen}
     onRequestClose={openOrCloseModal}
     style={customStyles}
+    ariaHideApp={false}
     contentLabel="Example Modal"
     >
       <form className={styles.content} onSubmit={handleSignIn}>
@@ -75,7 +76,7 @@ function ModalLogin() {
           <p className={styles.password}>password</p>
           <input type="password" value={password} onChange={handleChange} />
         </label>
-        <Button className={styles.loginBtn} type="submit" value="Enviar" />
+        <Button className={styles.loginBtn} type="submit" variant='#00A4EF' />
       </form>
     </Modal>
   );

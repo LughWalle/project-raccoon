@@ -1,18 +1,16 @@
 @import "styles/color.scss";
 .container {
-  margin: auto;
-  position: fixed;
   display: flex;
-  width: 100vw;
   justify-content: center;
   background-color: #2571b7;
+  width: 100%;
   z-index: 2;
   .navBar {
     display: flex;
-    justify-content: space-between;
+    width: 100%;
     max-width: 102.4rem;
-    width: inherit;
     align-items: center;
+    justify-content: space-between;
     .logo {
       display: flex;
       flex-direction: column;

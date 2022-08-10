@@ -3,20 +3,17 @@
 .button {
   display: flex;
   justify-content: center;
-  cursor: pointer;
   margin: auto 0;
-  overflow: hidden;
-  color: $color-text-white;
-
-  .ripples {
-    padding: 0.7rem 2rem;
-    overflow: unset !important;
-    margin: 0;
-    .text {
-      color: $color-text-white;
+  .btn {
+      padding: 0.7rem 2rem;
       font-size: 1.6rem;
-      background-color: transparent;
+      color: $color-text-white;
       border: none;
     }
-  }
+    &:hover {
+      transform: scale(1.1);
+    }
+    &:active {
+      transform: scale(0.9);
+    }
 }

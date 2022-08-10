@@ -12,7 +12,7 @@ export default function Header() {
         </div>
         <nav className={styles.nav}>
           <Navigation />
-          <Button href='https://github.com/LughWalle' className={styles.navBtn} />
+          <Button href='https://github.com/LughWalle' target='_blank' variant='#002050' className={styles.navBtn} />
         </nav>
 
       </div>
