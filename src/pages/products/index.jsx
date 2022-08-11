@@ -7,16 +7,14 @@ import { useRouter } from "next/router";
 
 const Products = () => {
   const { prods } = useContext(ProjectContext);
-  const router = useRouter()
+  const router = useRouter();
   return (
     <Layout>
+      <div
+        className={`${styles.btnX} ${styles.btn}`}
+        onClick={() => router.back()}
+      ></div>
       <ul className={styles.list}>
-        <li>
-          <div
-            className={`${styles.btnX} ${styles.btn}`}
-            onClick={() => router.back()}
-          ></div>
-        </li>
         {prods.map(({ title, description, brand }) => {
           let color = "";
           switch (brand) {
@@ -46,7 +44,7 @@ const Products = () => {
           return (
             <li key={title}>
               <div className={styles.content} style={{ background: color }}>
-                <Alvo />
+                <Alvo className={styles.icon} />
                 <div className={styles.text}>
                   <p className={styles.title}>{title}</p>
                   <p className={styles.description}>{description}</p>
