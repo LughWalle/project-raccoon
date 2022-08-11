@@ -27,7 +27,7 @@ Se o navegador não abrir automaticamente apois rodar o comando acima, use essa 
 A página contem um cabeçalho com menu de 3 links, apontando para o login quando não estiver logado, para a
 página de produtos, quando estiver, e outro para um link externo (meu github)
 
-![image](https://user-images.githubusercontent.com/48294395/183880795-12e6b678-386e-402f-b7f1-2a76f1cd427f.png)
+![image](https://user-images.githubusercontent.com/48294395/184048530-eeeeda48-ef07-4f4d-84dc-dfe3e533c248.png)
 
 ### Aqui tem uma [**demo**](https://62f42894549c05277ed3a139--melodic-seahorse-d38944.netlify.app/)
 
@@ -37,11 +37,12 @@ Para fazer login, ultilize as seguintes credenciais:
 
 ```
 username: kminchelle
-password: 0lelplR 
+password: 0lelplR
 ```
-![image](https://user-images.githubusercontent.com/48294395/183881265-86d1228c-e6a8-490d-b7d7-95da6068a84c.png)
+![image](https://user-images.githubusercontent.com/48294395/184048652-28713432-7059-4285-ae1e-e2a5179ad3c1.png)
+
 
 
 Apois completar login, será direcionado para a pagina de produtos
 
-![image](https://user-images.githubusercontent.com/48294395/183881016-b1b25fa3-9835-48ad-8410-120980f45b1f.png)
+![image](https://user-images.githubusercontent.com/48294395/184048724-d26fd7c6-0fd4-4841-b085-204f14c35a8a.png)
