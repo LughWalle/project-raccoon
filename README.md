@@ -1,4 +1,4 @@
-Este é um projeto em [Next.js](https://nextjs.org/), criado para teste tecnico da [Raccoon](https://raccoon.ag/).
+Este é um projeto em [Next.js](https://nextjs.org/), criado para teste técnico da [Raccoon](https://raccoon.ag/).
 
 ## Começando...
 
